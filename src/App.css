@@ -2,9 +2,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: lightyellow;
 }
 
 .header {
   font-family: 'Sono', sans-serif;
   padding-bottom: 30px;
+}
+
+#addTodo__btn {
+  margin-left: 10px;
 }

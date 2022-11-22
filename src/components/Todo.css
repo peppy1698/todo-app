@@ -1,3 +1,14 @@
 .todo__list {
   text-align: center;
 }
+#modal-modal-title {
+  padding-bottom: 20px;
+}
+
+.update__input {
+  margin-right: 10px;
+}
+
+#edit__btn {
+  margin-right: 10px;
+}

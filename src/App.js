@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Button, FormControl, Input, InputLabel } from '@mui/material';
+import { Button, FormControl } from '@mui/material';
+import TextField from '@mui/material/TextField';
 import Todo from './components/Todo';
 import './App.css';
 //importing components
@@ -40,15 +41,18 @@ function App() {
       <h1 className='header'>📝 TODO APP 📝</h1>
       <form>
         <FormControl>
-          <InputLabel>✅Write a Todo</InputLabel>
-          <Input
+          <TextField
+            label='✅Write a Todo'
+            color='secondary'
             type='text'
+            size='small'
             value={input}
             onChange={(event) => setInput(event.target.value)}
           />
         </FormControl>
 
         <Button
+          id='addTodo__btn'
           disabled={!input}
           variant='contained'
           color='secondary'
