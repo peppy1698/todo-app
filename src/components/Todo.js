@@ -16,7 +16,6 @@ import DeleteForeverTwoToneIcon from '@mui/icons-material/DeleteForeverTwoTone';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import Container from '@mui/material/Container';
 import styled from '@emotion/styled';
 
 const style = {
